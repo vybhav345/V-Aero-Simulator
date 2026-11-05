@@ -1,0 +1,6 @@
+{
+  "name": "V-Aero: Rocket Manufacturing & Shop-Floor Simulator",
+  "description": "Interactive discrete-event shop-floor operations simulator for Indian rocket manufacturing, CNC machining bays, FSW welding, vendor development, and orbital launch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
