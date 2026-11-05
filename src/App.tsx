@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { useSimStore } from './store/useSimStore.ts';
 import { Navbar } from './components/Navbar.tsx';
 import { TabBar } from './components/TabBar.tsx';
@@ -95,6 +96,9 @@ export default function App() {
       {activeModal === 'save_load' && <SaveLoadModal />}
       {activeModal === 'launch_modal' && <LaunchModal />}
       {selectedGenealogy && <PartGenealogyDrawer />}
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
